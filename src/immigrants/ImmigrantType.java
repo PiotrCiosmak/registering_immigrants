@@ -2,13 +2,12 @@ package immigrants;
 
 public class ImmigrantType
 {
-    public ImmigrantType(String firstName, String lastName)
+    public ImmigrantType(String firstName)
     {
         this.firstName = firstName;
-        this.lastName = lastName;
     }
 
-    public void show(Double x, Double y)
+    public void show(String lastName, Double x, Double y)
     {
         System.out.println("---IMIGRANT---");
         System.out.println("Imie: " + firstName);
@@ -17,5 +16,4 @@ public class ImmigrantType
     }
 
     private String firstName;
-    private String lastName;
 }
