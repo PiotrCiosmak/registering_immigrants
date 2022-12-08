@@ -26,5 +26,10 @@ public class ImmigrantsCollection
         return immigrants.size();
     }
 
+    public void clear()
+    {
+        immigrants.clear();
+    }
+
     private List<Immigrant> immigrants = new ArrayList<>();
 }
