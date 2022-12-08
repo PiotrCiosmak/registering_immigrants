@@ -15,5 +15,11 @@ public class ImmigrantType
         System.out.println("Współrzędne: [" + x + ", " + y + "]\n");
     }
 
+    @Override
+    public String toString()
+    {
+        return firstName;
+    }
+
     private String firstName;
 }

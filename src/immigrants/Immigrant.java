@@ -15,6 +15,13 @@ public class Immigrant
         type.show(lastName, x, y);
     }
 
+
+    @Override
+    public String toString()
+    {
+        return lastName + " " + x + " " + y + " " + type.toString();
+    }
+
     private String lastName;
     private Double x;
     private Double y;
