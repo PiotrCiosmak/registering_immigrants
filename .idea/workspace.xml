@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7da40b5-235c-487a-946b-902ca7ea978e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registering_immigrants.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="b7da40b5-235c-487a-946b-902ca7ea978e" name="Changes" comment="fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/immigrantsCollection/ImmigrantsCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immigrantsCollection/ImmigrantsCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,8 +45,128 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670527333297</updated>
-      <workItem from="1670527336003" duration="57000" />
+      <workItem from="1670527336003" duration="2449000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1670527401729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670527401730</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1670527432834</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670527432834</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <created>1670527446626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670527446626</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added empty class">
+      <created>1670527590675</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670527590675</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added empty class">
+      <created>1670527621516</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670527621516</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added empty class">
+      <created>1670527657671</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670527657672</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init">
+      <created>1670527668749</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670527668749</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added empty class">
+      <created>1670527803851</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670527803851</updated>
+    </task>
+    <task id="LOCAL-00009" summary="constructor implemented&#10;show function implemented&#10;&#10;x, y, type: private var added">
+      <created>1670528328393</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670528328393</updated>
+    </task>
+    <task id="LOCAL-00010" summary="constructor implemented&#10;show function implemented&#10;&#10;firstName, lastName: private var added">
+      <created>1670528358121</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670528358121</updated>
+    </task>
+    <task id="LOCAL-00011" summary="getImmigrantType function implemented&#10;&#10;immigrantTypes: private var added">
+      <created>1670528799242</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670528799242</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixed">
+      <created>1670529591524</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670529591524</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fixed">
+      <created>1670529652740</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670529652740</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fixed">
+      <created>1670529714019</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670529714019</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fixed">
+      <created>1670529728058</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670529728058</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fixed">
+      <created>1670529738330</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670529738330</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fixed">
+      <created>1670529784177</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670529784177</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,5 +182,25 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="added empty class" />
+    <MESSAGE value="constructor implemented&#10;show function implemented&#10;&#10;x, y, type: private var added" />
+    <MESSAGE value="constructor implemented&#10;show function implemented&#10;&#10;firstName, lastName: private var added" />
+    <MESSAGE value="getImmigrantType function implemented&#10;&#10;immigrantTypes: private var added" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
