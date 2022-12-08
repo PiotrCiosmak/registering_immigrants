@@ -5,6 +5,7 @@ public class ImmigrantType
     public ImmigrantType(String firstName)
     {
         this.firstName = firstName;
+
     }
 
     public void show(String lastName, Double x, Double y)
