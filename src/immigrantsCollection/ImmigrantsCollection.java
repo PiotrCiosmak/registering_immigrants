@@ -16,6 +16,15 @@ public class ImmigrantsCollection
         immigrants.add(immigrant);
     }
 
+    public void loadImmigrant(String line)
+    {
+        String[] variables = line.split(" ");
+
+        ImmigrantType type = ImmigrantFactory.getImmigrantType(variables[3]);
+        Immigrant immigrant = new Immigrant(variables[0], Double.parseDouble(variables[1]),  Double.parseDouble(variables[2]), type);
+        immigrants.add(immigrant);
+    }
+
     public Immigrant getImmigrant(int index)
     {
         return immigrants.get(index);
