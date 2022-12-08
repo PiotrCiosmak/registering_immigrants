@@ -16,5 +16,10 @@ public class ImmigrantsCollection
         immigrants.add(immigrant);
     }
 
+    public Immigrant getImmigrant(int index)
+    {
+        return immigrants.get(index);
+    }
+
     private List<Immigrant> immigrants = new ArrayList<>();
 }
