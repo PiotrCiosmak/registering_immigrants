@@ -21,5 +21,10 @@ public class ImmigrantsCollection
         return immigrants.get(index);
     }
 
+    public int getSize()
+    {
+        return immigrants.size();
+    }
+
     private List<Immigrant> immigrants = new ArrayList<>();
 }
