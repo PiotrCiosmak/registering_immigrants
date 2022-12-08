@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7da40b5-235c-487a-946b-902ca7ea978e" name="Changes" comment="fixed">
+    <list default="true" id="b7da40b5-235c-487a-946b-902ca7ea978e" name="Changes" comment="function clear implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/immigrantsCollection/ImmigrantsCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immigrantsCollection/ImmigrantsCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +38,11 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MrChi\IdeaProjects\registering_immigrants" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670527333297</updated>
-      <workItem from="1670527336003" duration="2449000" />
+      <workItem from="1670527336003" duration="9473000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1670527401729</created>
@@ -166,7 +172,63 @@
       <option name="project" value="LOCAL" />
       <updated>1670529784177</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fixed">
+      <created>1670529920657</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670529920657</updated>
+    </task>
+    <task id="LOCAL-00019" summary="changed">
+      <created>1670529935482</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670529935482</updated>
+    </task>
+    <task id="LOCAL-00020" summary="uml without connections">
+      <created>1670530039446</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670530039446</updated>
+    </task>
+    <task id="LOCAL-00021" summary="function getImmigrant implemented">
+      <created>1670530179962</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670530179962</updated>
+    </task>
+    <task id="LOCAL-00022" summary="function getSize implemented">
+      <created>1670530346150</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1670530346150</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added empty class">
+      <created>1670533335796</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1670533335796</updated>
+    </task>
+    <task id="LOCAL-00024" summary="function toString implemented">
+      <created>1670536908357</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670536908357</updated>
+    </task>
+    <task id="LOCAL-00025" summary="function clear implemented">
+      <created>1670539674159</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1670539674159</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,22 +247,35 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <MESSAGE value="added empty class" />
     <MESSAGE value="constructor implemented&#10;show function implemented&#10;&#10;x, y, type: private var added" />
     <MESSAGE value="constructor implemented&#10;show function implemented&#10;&#10;firstName, lastName: private var added" />
     <MESSAGE value="getImmigrantType function implemented&#10;&#10;immigrantTypes: private var added" />
     <MESSAGE value="fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+    <MESSAGE value="changed" />
+    <MESSAGE value="uml without connections" />
+    <MESSAGE value="function getImmigrant implemented" />
+    <MESSAGE value="function getSize implemented" />
+    <MESSAGE value="added empty class" />
+    <MESSAGE value="function toString implemented" />
+    <MESSAGE value="function clear implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="function clear implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/Menu/Menu.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="allFiles.get(selectedFileIndex)" />
+        <watch expression="(new FileReader(allFiles.get(selectedFileIndex)))" />
+        <watch expression="new FileReader(allFiles.get(selectedFileIndex))" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
