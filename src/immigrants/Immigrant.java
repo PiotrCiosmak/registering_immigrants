@@ -16,7 +16,6 @@ public class Immigrant
         type.show(lastName, x, y);
     }
 
-
     @Override
     public String toString()
     {
