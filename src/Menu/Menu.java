@@ -74,7 +74,11 @@ public class Menu
                 allFiles.add(file.getName());
             }
         }
-
+        if (allFiles.size() == 0)
+        {
+            System.out.println("-BRAK ZAPISÓW-");
+            return;
+        }
         System.out.println("---WYBIERZ ZAPIS---");
         for (int i = 0; i < allFiles.size(); ++i)
         {
