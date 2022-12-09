@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7da40b5-235c-487a-946b-902ca7ea978e" name="Changes" comment="function startWithCapitalLetter implemented">
-      <change afterPath="$PROJECT_DIR$/src/immigrants/ImmigrantProxy.java" afterDir="false" />
+    <list default="true" id="b7da40b5-235c-487a-946b-902ca7ea978e" name="Changes" comment="todo removed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registering_immigrants.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/registering_immigrants.drawio" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/immigrants/Immigrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immigrants/Immigrant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/immigrants/ImmigrantFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immigrants/ImmigrantFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/immigrants/ImmigrantType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immigrants/ImmigrantType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/immigrantsCollection/ImmigrantsCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immigrantsCollection/ImmigrantsCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +73,7 @@
       <updated>1670527333297</updated>
       <workItem from="1670527336003" duration="9473000" />
       <workItem from="1670605306023" duration="29000" />
-      <workItem from="1670613724448" duration="3961000" />
+      <workItem from="1670613724448" duration="6216000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1670527401729</created>
@@ -276,7 +271,63 @@
       <option name="project" value="LOCAL" />
       <updated>1670615759453</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="save added">
+      <created>1670618407243</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1670618407243</updated>
+    </task>
+    <task id="LOCAL-00030" summary="constructor implemented&#10;function startWithCapitalLetter implemented&#10;private var ImmigrantImp, name added">
+      <created>1670618486257</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1670618486257</updated>
+    </task>
+    <task id="LOCAL-00031" summary="changes connected with adding proxy design pattern">
+      <created>1670618543391</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1670618543393</updated>
+    </task>
+    <task id="LOCAL-00032" summary="updated">
+      <created>1670618557059</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1670618557059</updated>
+    </task>
+    <task id="LOCAL-00033" summary="checking if saves exits">
+      <created>1670618733014</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1670618733014</updated>
+    </task>
+    <task id="LOCAL-00034" summary="checking if saves exits">
+      <created>1670618826649</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1670618826649</updated>
+    </task>
+    <task id="LOCAL-00035" summary="scanner is now final">
+      <created>1670618897667</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1670618897667</updated>
+    </task>
+    <task id="LOCAL-00036" summary="todo removed">
+      <created>1670618941579</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1670618941579</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +360,14 @@
     <MESSAGE value="ImmigrantImpl interface added empty" />
     <MESSAGE value="function startWithCapitalLetter added" />
     <MESSAGE value="function startWithCapitalLetter implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="function startWithCapitalLetter implemented" />
+    <MESSAGE value="save added" />
+    <MESSAGE value="constructor implemented&#10;function startWithCapitalLetter implemented&#10;private var ImmigrantImp, name added" />
+    <MESSAGE value="changes connected with adding proxy design pattern" />
+    <MESSAGE value="updated" />
+    <MESSAGE value="checking if saves exits" />
+    <MESSAGE value="scanner is now final" />
+    <MESSAGE value="todo removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="todo removed" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
