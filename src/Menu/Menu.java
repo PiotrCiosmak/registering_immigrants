@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class Menu
 {
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void mainMenu(ImmigrantsCollection immigrantsCollection)
     {
@@ -76,7 +76,7 @@ public class Menu
         }
         if (allFiles.size() == 0)
         {
-            System.out.println("-BRAK ZAPISÓW-");
+            System.out.println("---BRAK ZAPISÓW---");
             return;
         }
         System.out.println("---WYBIERZ ZAPIS---");
