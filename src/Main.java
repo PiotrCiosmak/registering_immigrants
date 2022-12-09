@@ -7,6 +7,5 @@ public class Main
     {
         ImmigrantsCollection immigrantsCollection = new ImmigrantsCollection();
         Menu.mainMenu(immigrantsCollection);
-        //UML
     }
 }
