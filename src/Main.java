@@ -7,7 +7,6 @@ public class Main
     {
         ImmigrantsCollection immigrantsCollection = new ImmigrantsCollection();
         Menu.mainMenu(immigrantsCollection);
-        //pośrednik
         //UML
     }
 }
