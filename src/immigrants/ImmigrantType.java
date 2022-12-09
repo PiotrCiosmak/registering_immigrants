@@ -2,9 +2,10 @@ package immigrants;
 
 public class ImmigrantType
 {
-    public ImmigrantType(String firstName)
+    public ImmigrantType(ImmigrantImpl immigrant, String firstName)
     {
-        this.firstName = firstName;
+        this.immigrant = immigrant;
+        this.firstName = this.immigrant.startWithCapitalLetter(firstName);
     }
 
     public void show(String lastName, Double x, Double y)
@@ -22,4 +23,5 @@ public class ImmigrantType
     }
 
     private String firstName;
+    private ImmigrantImpl immigrant;
 }

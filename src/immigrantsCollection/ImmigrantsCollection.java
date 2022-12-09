@@ -1,8 +1,6 @@
 package immigrantsCollection;
 
-import immigrants.Immigrant;
-import immigrants.ImmigrantFactory;
-import immigrants.ImmigrantType;
+import immigrants.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +10,7 @@ public class ImmigrantsCollection
     public void registerImmigrant(String lastName, Double x, Double y, String firstName)
     {
         ImmigrantType type = ImmigrantFactory.getImmigrantType(firstName);
-        Immigrant immigrant = new Immigrant(lastName, x, y, type);
+        Immigrant immigrant = new Immigrant(new ImmigrantProxy(), lastName, x, y, type);
         immigrants.add(immigrant);
     }
 
@@ -21,7 +19,7 @@ public class ImmigrantsCollection
         String[] variables = line.split(" ");
 
         ImmigrantType type = ImmigrantFactory.getImmigrantType(variables[3]);
-        Immigrant immigrant = new Immigrant(variables[0], Double.parseDouble(variables[1]),  Double.parseDouble(variables[2]), type);
+        Immigrant immigrant = new Immigrant(new ImmigrantProxy(), variables[0], Double.parseDouble(variables[1]), Double.parseDouble(variables[2]), type);
         immigrants.add(immigrant);
     }
 

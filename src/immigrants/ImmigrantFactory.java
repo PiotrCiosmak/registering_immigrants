@@ -10,7 +10,7 @@ public class ImmigrantFactory
         ImmigrantType result = immigrantTypes.get(firstName);
         if (result == null)
         {
-            result = new ImmigrantType(firstName);
+            result = new ImmigrantType(new ImmigrantProxy(), firstName);
             immigrantTypes.put(firstName, result);
         }
         return result;
